@@ -12,8 +12,8 @@ def test_index():
 
 def test_post():
     url = 'http://127.0.0.1:5000/user/post'
-    payload = {'name': '陆杰', 'nick': 'lj', 'email': '305603665@qq.com',
-               'mobile': '15901487291', 'password': 'my pass'}
+    payload = {'name': 'lj', 'nick': 'lj', 'email': '111111@qq.com',
+               'mobile': '11111111111', 'password': 'my pass'}
     post(url, payload)
     pass
 
@@ -32,8 +32,8 @@ def test_detail():
 
 def test_update():
     url = 'http://127.0.0.1:5000/user/update'
-    payload = {'id': 1, 'name': '赵景明', 'nick': '明子', 'email': '305603665@qq.com',
-               'mobile': '15901487291', 'password': 'my pass'}
+    payload = {'id': 1, 'name': 'mz', 'nick': 'mz', 'email': '111111@qq.com',
+               'mobile': '11111111111', 'password': 'my pass'}
     put(url, payload)
     pass
 
